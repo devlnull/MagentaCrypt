@@ -1,11 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\MegentaCrypt.Core\MegentaCrypt.Core.csproj" />
-  </ItemGroup>
+  <PropertyGroup>
+    <PackageId>MagentaCrypt.Providers</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Amirhossein Ghorbani</Authors>
+  </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MagentaCrypt.Code" Version="1.0.0" />
+  </ItemGroup>
 </Project>
