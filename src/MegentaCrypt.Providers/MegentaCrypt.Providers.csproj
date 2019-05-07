@@ -6,11 +6,12 @@
 
   <PropertyGroup>
     <PackageId>MagentaCrypt.Providers</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>Amirhossein Ghorbani</Authors>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MagentaCrypt.Core" Version="1.0.0" />
+    <PackageReference Include="MagentaCrypt.Core" Version="1.0.2" />
   </ItemGroup>
+
 </Project>
