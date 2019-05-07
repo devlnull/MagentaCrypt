@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28902.138
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MegentaCrypt.Core", "src\MegentaCrypt.Core\MegentaCrypt.Core.csproj", "{663ECF9D-7256-453A-AB2B-A64BED439E00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MegentaCrypt.Providers", "src\MegentaCrypt.Providers\MegentaCrypt.Providers.csproj", "{2BE54284-79FA-41FC-80F2-F758EB69D5EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{663ECF9D-7256-453A-AB2B-A64BED439E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663ECF9D-7256-453A-AB2B-A64BED439E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663ECF9D-7256-453A-AB2B-A64BED439E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663ECF9D-7256-453A-AB2B-A64BED439E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE54284-79FA-41FC-80F2-F758EB69D5EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE54284-79FA-41FC-80F2-F758EB69D5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE54284-79FA-41FC-80F2-F758EB69D5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE54284-79FA-41FC-80F2-F758EB69D5EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3B8A4C2-E332-46CE-B0F4-BC114808127D}
+	EndGlobalSection
+EndGlobal
